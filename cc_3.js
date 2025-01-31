@@ -34,3 +34,16 @@ let employee //declaring an object with properties
             }
     console.log("Updated info: ", employee);
 
+//Task 4 - Customer Feedback 
+//declaring an array for 3 objects with different properties
+let feedback = 
+[
+    {customerName: "Silvermist", feedbackText: "Prettt average experience", rating: 3},
+    {customerName: "Rosetta", feedbackText: "Tink was amazing!!", rating: 5},
+    {customerName: "Vidia", feedbackText: "Could've been better.", rating: 1},
+];
+feedback.push({customerName: "PeriWinkle", feedbackText: "Amazing!", rating: 5});//adding a new object into the array
+console.log("Customer feedback list: ", feedback);
+
+
+
