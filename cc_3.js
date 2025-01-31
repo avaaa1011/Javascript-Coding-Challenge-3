@@ -45,5 +45,18 @@ let feedback =
 feedback.push({customerName: "PeriWinkle", feedbackText: "Amazing!", rating: 5});//adding a new object into the array
 console.log("Customer feedback list: ", feedback);
 
+//Task 5 - Inventory Management System
+let inventory = //declaring an object with properties 
+{
+    itemName: "Pixie Dust",
+    stockCount: 20,
+    price: 60, 
+    calculateTotalValue() //adding a new method
+    {
+        return this.stockCount * this.price ; //returning the total value
+    }
+}; 
+console.log("Inventory Info: ", inventory);
+console.log("Total Inventory: ", inventory.calculateTotalValue());
 
 
