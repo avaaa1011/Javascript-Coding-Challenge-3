@@ -13,4 +13,24 @@ console.log("Updated Customer Orders: ", orders);
 let totalOrders = orders.reduce((sum, amount) => sum+amount, 0); //calculating the sum of all orders
 console.log("Total Customer Orders: ", totalOrders);
 
+//Task 3 - Employee Performance Tracking
+let employee //declaring an object with properties
+    {
+        name : "TinkerBell",
+        role = "Engineer", 
+        performanceScore = 62,
+        isActive = true
+    };
+    console.log("Employee: ", employee);
+    employee.performanceScore = 84; //updating performance score
+    console.log("Updated info: ", employee);
+    employee.promotionalEligible = true; //adding a new property 
+        if(employee.performanceScore > 75) //if-else statement to determine promotion eligibility based on performance score
+        {
+            console.log("Eligible for promotion!");
+        } else 
+            {
+                console.log("Not eligible for promotion.");
+            }
+    console.log("Updated info: ", employee);
 
